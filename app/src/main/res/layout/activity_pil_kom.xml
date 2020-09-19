@@ -11,11 +11,10 @@
         android:layout_marginBottom="60dp">
 
     <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/linear_prior"
@@ -394,18 +393,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/p110"
+                        android:text="@string/sk11"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <RadioGroup
-                        android:id="@+id/rg_p110"
+                        android:id="@+id/rg_p20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
 
                         <RadioButton
-                            android:id="@+id/radiop110_one"
+                            android:id="@+id/radiop20_one"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:buttonTint="@color/colorPrimary"
@@ -413,7 +412,7 @@
                             />
 
                         <RadioButton
-                            android:id="@+id/radiop110_two"
+                            android:id="@+id/radiop20_two"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:buttonTint="@color/colorPrimary"
@@ -423,85 +422,125 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorAccent"
-                    android:padding="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/colorAccent"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:orientation="vertical">-->
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/p111"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/p110"-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:textStyle="bold" />-->
 
-                    <RadioGroup
-                        android:id="@+id/rg_p111"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-                        <RadioButton
-                            android:id="@+id/radiop111_one"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/ya"
-                            />
-
-                        <RadioButton
-                            android:id="@+id/radiop111_two"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/tidak"
-                            />
-                    </RadioGroup>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorAccent"
-                    android:padding="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/p112"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <RadioGroup
-                        android:id="@+id/rg_p112"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+<!--                    <RadioGroup-->
+<!--                        android:id="@+id/rg_p110"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
 
 
-                        <RadioButton
-                            android:id="@+id/radiop112_one"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            android:buttonTint="@color/colorPrimary"
-                            />
+<!--                        <RadioButton-->
+<!--                            android:id="@+id/radiop110_one"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:buttonTint="@color/colorPrimary"-->
+<!--                            android:text="@string/ya"-->
+<!--                            />-->
 
-                        <RadioButton
-                            android:id="@+id/radiop112_two"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/tidak"
-                            />
-                    </RadioGroup>
+<!--                        <RadioButton-->
+<!--                            android:id="@+id/radiop110_two"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:buttonTint="@color/colorPrimary"-->
+<!--                            android:text="@string/tidak"-->
+<!--                            />-->
+<!--                    </RadioGroup>-->
 
-                </LinearLayout>
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/colorAccent"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/p111"-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <RadioGroup-->
+<!--                        android:id="@+id/rg_p111"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+
+<!--                        <RadioButton-->
+<!--                            android:id="@+id/radiop111_one"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:buttonTint="@color/colorPrimary"-->
+<!--                            android:text="@string/ya"-->
+<!--                            />-->
+
+<!--                        <RadioButton-->
+<!--                            android:id="@+id/radiop111_two"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:buttonTint="@color/colorPrimary"-->
+<!--                            android:text="@string/tidak"-->
+<!--                            />-->
+<!--                    </RadioGroup>-->
+
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/colorAccent"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/p112"-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <RadioGroup-->
+<!--                        android:id="@+id/rg_p112"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+
+<!--                        <RadioButton-->
+<!--                            android:id="@+id/radiop112_one"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="@string/ya"-->
+<!--                            android:buttonTint="@color/colorPrimary"-->
+<!--                            />-->
+
+<!--                        <RadioButton-->
+<!--                            android:id="@+id/radiop112_two"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:buttonTint="@color/colorPrimary"-->
+<!--                            android:text="@string/tidak"-->
+<!--                            />-->
+<!--                    </RadioGroup>-->
+
+<!--                </LinearLayout>-->
 
             </LinearLayout>
 
@@ -511,52 +550,210 @@
                 android:id="@+id/linear_decision"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:visibility="gone"
-                android:padding="8dp"
                 android:layout_marginBottom="8dp"
+                android:visibility="gone"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pemeriksaan"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:orientation="vertical">
 
-                <CheckBox
-                    android:id="@+id/check_bp01"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/bp01"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bp01"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
-                <CheckBox
-                    android:id="@+id/check_bp02"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bp02"/>
+                    <RadioGroup
+                        android:id="@+id/rg_bp01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                <CheckBox
-                    android:id="@+id/check_bp03"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/bp03"/>
 
-                <CheckBox
-                    android:id="@+id/check_bp04"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/bp04"/>
+                        <RadioButton
+                            android:id="@+id/radiobp01_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/ya"
+                            />
 
-                <CheckBox
-                    android:id="@+id/check_bp05"
+                        <RadioButton
+                            android:id="@+id/radiopb01_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/tidak"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/bp05"/>
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bp02"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_bp02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <RadioButton
+                            android:id="@+id/radiobp02_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/ya"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/radiopb02_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/tidak"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bp03"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_bp03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <RadioButton
+                            android:id="@+id/radiobp03_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/ya"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/radiopb03_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/tidak"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bp04"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_bp04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <RadioButton
+                            android:id="@+id/radiobp04_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/ya"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/radiopb04_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/tidak"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bp05"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_bp05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <RadioButton
+                            android:id="@+id/radiobp05_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/ya"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/radiopb05_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorPrimary"
+                            android:text="@string/tidak"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+
 
             </LinearLayout>
 

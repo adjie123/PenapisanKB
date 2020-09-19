@@ -33,6 +33,7 @@
                     android:layout_marginBottom="8dp"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/tv_p01"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -73,6 +74,7 @@
                     android:layout_marginBottom="8dp"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/tv_p02"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -106,6 +108,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linear_p03"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/colorAccent"
@@ -114,6 +117,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tv_p03"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/p03"
@@ -147,131 +151,6 @@
                 </LinearLayout>
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorAccent"
-                    android:padding="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:text="@string/p04"/>
-
-                    <RadioGroup
-                        android:id="@+id/rg_p04"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-                        <RadioButton
-                            android:id="@+id/radiop04_one"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/ya"
-                            />
-
-                        <RadioButton
-                            android:id="@+id/radiop04_two"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/tidak"
-                            />
-                    </RadioGroup>
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorAccent"
-                    android:padding="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/p05"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <RadioGroup
-                        android:id="@+id/rg_p05"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-                        <RadioButton
-                            android:id="@+id/radiop05_one"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/ya"
-                            />
-
-                        <RadioButton
-                            android:id="@+id/radiop05_two"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/tidak"
-                            />
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/colorAccent"
-                    android:padding="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/p06"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <RadioGroup
-                        android:id="@+id/rg_p06"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-                        <RadioButton
-                            android:id="@+id/radiop06_one"
-                            android:layout_width="match_parent"
-                            android:buttonTint="@color/colorPrimary"
-                            android:layout_height="wrap_content"
-                            android:text="@string/ya"
-                            />
-
-                        <RadioButton
-                            android:id="@+id/radiop06_two"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:buttonTint="@color/colorPrimary"
-                            android:text="@string/tidak"
-                            />
-                    </RadioGroup>
-
-
-                </LinearLayout>
-
-
-
 
             </LinearLayout>
 
@@ -281,8 +160,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorAccent"
-                android:visibility="gone"
                 android:padding="8dp"
+                android:visibility="gone"
                 android:orientation="vertical">
 
                 <TextView
@@ -325,6 +204,7 @@
                         android:id="@+id/radiop07_five"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimary"
                         android:text="@string/sp"
                         />
 
@@ -347,6 +227,7 @@
                     <RadioButton
                         android:id="@+id/radiop07_eight"
                         android:layout_width="match_parent"
+                        android:buttonTint="@color/colorPrimary"
                         android:layout_height="wrap_content"
                         android:text="@string/akdrp"
                         />
@@ -359,14 +240,6 @@
                         android:text="@string/tubek"
                         />
 
-
-                    <RadioButton
-                        android:id="@+id/radiop07_ten"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="@color/colorPrimary"
-                        android:text="@string/vasek"
-                        />
                 </RadioGroup>
 
 

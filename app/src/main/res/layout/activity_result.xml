@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/img_result"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/no_image"/>
+    <TextView
+        android:id="@+id/tv_nama_bunda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Bunda"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Hasil peneliaian sistem menggunakan AlKon"/>
+
+
+    <Button
+        android:id="@+id/btn_create_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Jadikan PDF"/>
+    <Button
+        android:id="@+id/btn_view_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Lihat PDF"/>
+
+</LinearLayout>

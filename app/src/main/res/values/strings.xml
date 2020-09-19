@@ -9,6 +9,8 @@
     <string name="p05">Apakah anda mengalami keguguran dalam 7 hari terakhir? (atau 12 hari terakhir bila ingin menggunakan AKDR)</string>
     <string name="p06">Apakah anda menggunkan kontrasepsi secara tepat dan konsisten ?</string>
     <string name="p07">Jenis Alkon yang akan digunakan ?</string>
+    <string name="p08">Apakah anda belum mendapatkan haid?</string>
+    <string name="p09">Apakah anda menggunakan kontrasepsi secara tepat dan konsisten?</string>
     <string name="pk">Pil Kombinasi</string>
     <string name="sk">Suntik Kombinasi</string>
     <string name="pp">Pil Progestin</string>
@@ -31,7 +33,7 @@
     <string name="p111">Apakah sedang mengalami penyakit tumor hati?</string>
     <string name="p112">Apakah sedang mengkonsumsi obat TBC?</string>
     <string name="pemeriksaan">Pemeriksaan</string>
-    <string name="bp01">Adakah trombosis vena dalam/ Emboli Paru</string>
+    <string name="bp01">Adakah trombosis vena dalam</string>
     <string name="bp02">Tekanan darah meningkat sistolik 140-160 mmHg</string>
     <string name="bp03">Tekanan darah meningkat diastolik 90-100 mmHg</string>
     <string name="bp04"><![CDATA[Tekanan darah sistolik  >160 mmHg]]></string>
@@ -120,4 +122,18 @@
     <string name="bp09"><![CDATA[Tekanan darah diastolik > 100 mmHg?]]></string>
     <string name="lanjut">Lanjut</string>
     <string name="proses">Proses</string>
+    <string name="nama_bidan">Nama Bidan</string>
+    <string name="alamat_lengkap">Alamat Lengkap</string>
+    <string name="register">Register</string>
+    <string name="wil_kerja">Wilayah Kerja Puskesmas</string>
+    <string name="nama_bunda">Nama</string>
+    <string name="umur">Umur</string>
+    <string name="nama_suami">Nama Suami</string>
+    <string name="nifas">Nifas</string>
+    <string name="akseptor_kb_baru">Akseptor KB Baru</string>
+    <string name="akseptor_kb_lama">Akseptor KB Lama</string>
+    <string name="akseptor_kb_lama_ganti_cara">Akseptor KB Lama Ganti Cara</string>
+    <string name="kondisi_anda">Kondisi Saat Ini ?</string>
+    <string name="no_rm">No. Rekam Medis</string>
+    <string name="sk11">apakah anda menyusui eksklusif?</string>
 </resources>

@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.skripsi.penapisankb">
-
+    package="com.skripsi.penapisankb">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,13 +31,12 @@
         </activity>
         <activity android:name=".PilKomActivity" />
         <activity android:name=".SuntikProActivity" />
-        <activity android:name=".VasektomiActivity" />
         <activity android:name=".PilProActivity" />
         <activity android:name=".ImplanActivity" />
         <activity android:name=".AKDRCuActivity" />
         <activity android:name=".AKDRProActivity" />
-        <activity android:name=".SuntikKomActivity"/>
-        <activity android:name=".TubektomiActivity"/>
+        <activity android:name=".SuntikKomActivity" />
+        <activity android:name=".TubektomiActivity" />
     </application>
 
 </manifest>

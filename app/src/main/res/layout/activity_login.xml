@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/nama_bidan"/>
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/nama_bidan"/>
+
+
+            <EditText
+                android:id="@+id/edt_norm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/no_rm"/>
+            <EditText
+                android:id="@+id/edt_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_bunda"/>
+
+            <EditText
+                android:id="@+id/edt_umur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/umur"/>
+
+            <EditText
+                android:id="@+id/edt_nama_suami"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_suami"/>
+
+            <EditText
+                android:id="@+id/edt_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alamat_lengkap"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/kondisi_anda"/>
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/nifas"/>
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/akseptor_kb_baru"/>
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="match_parent"
+                    android:buttonTint="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:text="@string/akseptor_kb_lama"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_proses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="@string/proses"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
